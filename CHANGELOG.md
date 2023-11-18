@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - nil
 
+## [1.0.2] - 2023-05-14
+
+### Added
+
+- Add GitHub action to build Docker containers automagically
+
 ## [1.0.1] - 2021-05-09
 
 ### Added
@@ -47,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - nil
 
-[Unreleased]: https://github.com/daveio/aaisp-exporter/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/daveio/aaisp-exporter/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/daveio/aaisp-exporter/releases/tag/v1.0.0
