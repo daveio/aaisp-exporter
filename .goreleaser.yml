@@ -37,12 +37,12 @@ archives:
       arm_7: ARMv7
       aarch64: ARMv7_64
 checksum:
-  name_template: 'checksums.txt'
+  name_template: checksums.txt
 snapshot:
   name_template: "{{ .Tag }}-next"
 changelog:
   sort: asc
   filters:
     exclude:
-      - '^docs:'
-      - '^test:'
+      - "^docs:"
+      - "^test:"

@@ -21,29 +21,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1] - 2021-05-09
 
-### Added
+### Added in 1.0.1
 
 - Build more platforms and architectures when producing binary release archives
 
-### Changed
+### Changed in 1.0.1
 
 - nil
 
-### Removed
+### Removed in 1.0.1
 
 - nil
 
 ## [1.0.0] - 2021-05-04
 
-### Added
+### Added in 1.0.0
 
 - Initial release
 
-### Changed
+### Changed in 1.0.0
 
 - nil
 
-### Removed
+### Removed in 1.0.0
 
 - nil
 

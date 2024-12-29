@@ -10,6 +10,7 @@ import (
 
 	"github.com/go-resty/resty/v2"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
 )
@@ -77,7 +78,7 @@ func main() {
 		registry.MustRegister(gauge)
 	}
 	// Add Go module build info.
-	registry.MustRegister(prometheus.NewBuildInfoCollector())
+	registry.MustRegister(collectors.NewBuildInfoCollector())
 
 	// Update CHAOS data every 60 seconds.
 	go ScheduleUpdates(gauges, refreshSecs)
