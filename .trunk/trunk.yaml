@@ -13,6 +13,7 @@ runtimes:
     - python@3.10.8
 lint:
   disabled:
+    - cspell
     - renovate
   enabled:
     - taplo@0.9.3
