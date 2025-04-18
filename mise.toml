@@ -1,5 +1,5 @@
 [env]
-AAISP_EXPORTER_MISE_ACTIVE = "true"
+AAISP_EXPORTER_MISE_ACTIVE = 'true'
 
 [settings]
 env_file = '.env'
